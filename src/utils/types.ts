@@ -1,6 +1,6 @@
 import type FontConfig from '../classes/FontConfig';
 import type { PreparedFontOptionVariance } from '../types';
-/* eslint-disable security/detect-object-injection */
+/* eslint-disable security/detect-object-injection  */
 interface TextProperties {
   [index: string]: (string | number)[];
   family: string[];
